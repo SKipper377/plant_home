@@ -1,0 +1,420 @@
+body {
+    background: rgb(46,0,79);
+background: linear-gradient(18deg, rgba(46,0,79,1) 18%, rgba(132,17,166,1) 79%);
+font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(100deg, #350350, #8e24aa);
+    color: white;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+.logo span {
+    color: #ffffff;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.download-btn {
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.content {
+    max-width: 500px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Rowdies", sans-serif;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.download {
+    background: white;
+    color: black;
+}
+.buy {
+    background: #9156FF;
+    color: white;
+}
+.image img {
+    width: 600px;
+}
+.description {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.navigation {
+    font-family: "Inter", sans-serif;
+}
+
+.logo-img {
+    margin-right: 10px;
+}
+
+.info-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #6a1b9a, #ab47bc);
+    border-radius: 20px;
+    height:350px;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.info-image {
+    flex: 60%;
+    padding-left:  30px;
+}
+
+.info-image img {
+    width: 80%;
+    border-radius: 10px;
+  
+}
+
+.info-text {
+    flex: 55%;
+    padding-right: 70px;
+    
+} 
+
+
+h2 {
+    font-size: 28px;
+    color: white;
+white-space: nowrap;
+padding-bottom: 10px ;
+}
+
+.info-text-h3
+{
+    
+padding-left: 70px;
+flex: 55%;
+}
+
+.title-box{
+    background: rgb(57,0,164);
+    background: linear-gradient(18deg, rgba(57,0,164,1) 100%, rgba(107,27,255,1) 100%);
+    font-size: 36px;
+    color: #fff;
+    font-family: "Rowdies", sans-serif;
+    padding: 35px 0;
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+}
+
+.title-logo {
+    width: 30px;
+}
+
+.features-boxes {
+    display: flex;
+    justify-content: space-between; /* Розміщує рівномірно */
+    gap: 30px; /* Відстань між блоками */
+    text-align: center;
+    padding: 40px 0;
+    
+}
+
+.feature-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Вирівнює контент всередині */
+    background: #a10ac7;
+    padding: 20px;
+    border-radius: 65px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 250px; /* Фіксована мінімальна висота */
+    align-items: center;
+}
+
+.feature-box img {
+    width: 380px; /* Розмір іконки */
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.feature-box h3 {
+    font-size: 28px;
+    min-height: 60px; /* Однакова висота для всіх заголовків */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.feature-box p {
+    font-size: 16px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: flex-end; /* Притискає до низу */
+    line-height: 35px;
+}
+.cta {
+    margin: 100PX;
+}
+.cta-title {
+    font-size: 28px;
+    padding: 80px;
+}
+
+
+.cta-btn {
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 25px;
+    font-size: 26px;
+    background: #9156FF;
+    color: white;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1855px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .feature-box img {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1332px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .feature-box img {
+        max-width: 250px;
+    }
+    .feature-box h3 {
+        font-size: 20px;
+    }
+    .info-box {
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 1171px) {
+    .container {
+        max-width: 850px;
+    }
+
+    .feature-box img {
+        max-width: 250px;
+    }
+    .info-box {
+        height: 225px;
+    }
+}
+
+@media only screen and (max-width: 1001px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .feature-box img {
+        max-width: 180px;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .info-box {
+        height: 200px;
+    }
+    .info-box h2  {
+        font-size: 24px;
+    }
+    
+    
+}
+@media only screen and (max-width: 900px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .feature-box img {
+        max-width: 180px;
+    }
+    .hero {
+        flex-direction: column;
+}
+
+.info-text h2 {
+    font-size: 16px;
+}
+.description
+{
+    font-size: 13px;
+}
+.info-box h2 {
+    font-size: 20px;
+}
+
+.title-box {
+    font-size: 26px;
+    padding: 17px 0;
+}
+.image img {
+        width: 400px;
+}
+}
+@media only screen and (max-width: 750px) {
+    .container {
+        max-width: 700px;
+    }
+    .features-boxes{
+        flex-direction: column;
+}
+.feature-box p {
+    line-height: 25px;
+    width: 350px;
+}
+
+.features-boxes {
+    width: 75%;
+    margin: 0 auto;
+}
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .navigation {
+        display: none;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .content {
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .description {
+        padding-top: 20px;
+    }
+
+    .features-boxes{
+        flex-direction: column;
+    }
+
+    .cta-title {
+        text-align: center;
+        padding: 0;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+   .cta-btn {
+    font-size: 16px;
+   } 
+
+   .info-text h2 {
+    padding: 0;
+    font-size: 18px;
+   }
+   .info-box h2 {
+    padding: 0;
+    font-size: 18px;
+   }
+   .feature-box p {
+    line-height: 25px;
+    width: 250px;
+  }
+
+  .info-box {
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    padding: 20px 0;
+  }
+
+  .info-image{
+    width: 60%;
+  }
+  .description {
+    width: 300px;
+    padding: 10px 0;
+  }
+
+  .info-image {
+    padding: 0;
+  }
+
+  .info-text {
+    padding: 0;
+  }
+
+  .info-text-h3 {
+    padding: 0;
+  }
+  
+}
