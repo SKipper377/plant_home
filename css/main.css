@@ -87,6 +87,9 @@ h1 {
 .buy {
     background: #9156FF;
     color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 .image img {
     width: 600px;
@@ -207,6 +210,10 @@ flex: 55%;
     justify-content: center;
     text-align: center;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 .feature-box p {
     font-size: 16px;
